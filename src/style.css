@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000718;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Timer_numbers{
+    margin-bottom: 50px;
+    font-size: 48px;
+    color: #02c94e;
+}
+
+.Timer_btn{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.Timer_btn button{
+    outline: none;
+    border: 1px solid #02c94e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: transparent;
+    color: #02c94e;
+    transition: all ease-in-out .1s;
+}
+.Timer_btn button:hover{
+    transform: scale(1.1);
+}
